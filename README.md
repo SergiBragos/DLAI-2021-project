@@ -345,7 +345,7 @@ See obtained error previously introduced in error metrics section and extra trai
 
 ##### Conclusions
 
-Our hypothesis is supported as the results are better than with different standardization in train and test (as it is done in Experiment 2). In reference with the Experiment 1 we got also worst results, therefore we could conclude that in this situation and with this dataset standarizing the data is not recommended. 
+Our hypothesis is supported as the results are better than with different standardization in train and test (as it is done in Experiment 2). In reference with the Experiment 1 we got also worse results, therefore we could conclude that in this situation and with this dataset standarizing the data is not recommended. 
 
 ## Paper modification 1 - Only regression enabled
 
@@ -470,7 +470,7 @@ See obtained error previously introduced in error metrics section and extra trai
 |microwave   |20.1   |10        |2.2            |
 
 #### Conclusions
-In general, the results are similar to the other experiments in terms of MAE score. In comparison with Experiment 5, the results are significantly better. In Experiments 2 and 3, using training standardization in the test set gave better results as well. 
+In general, the results are similar to the other experiments in terms of MAE score. In comparison with Experiment 5, the results are significantly better. In Experiments 2 and 3, using training standardization in the test set gave better results as well (in comparison with test standardizartion). We can highlight the good performance for the microwave, as the results for this appliance are the best overall.
 
 ## Paper modification 2 - Regression and classification using the attention results
 
